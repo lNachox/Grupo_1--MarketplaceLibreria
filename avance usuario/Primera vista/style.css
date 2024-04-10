@@ -1,0 +1,380 @@
+.primera-vista {
+  background-color: #f1ecd0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.primera-vista .div {
+  background-color: #f1ecd0;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.primera-vista .overlap-group {
+  position: absolute;
+  width: 906px;
+  height: 62px;
+  top: 31px;
+  left: 267px;
+  background-image: url(./img/rectangle-2.svg);
+  background-size: 100% 100%;
+}
+
+.primera-vista .rectangle {
+  position: absolute;
+  width: 877px;
+  height: 41px;
+  top: 13px;
+  left: 12px;
+  background-color: #f9f7ed;
+  border-radius: 10px;
+}
+
+.primera-vista .text-wrapper {
+  position: absolute;
+  width: 284px;
+  height: 34px;
+  top: 15px;
+  left: 28px;
+  opacity: 0.5;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.primera-vista .component {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: 43px;
+  left: 19px;
+  background-color: #e5d6a3;
+}
+
+.primera-vista .img {
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  top: 9px;
+  left: 8px;
+}
+
+.primera-vista .overlap {
+  position: absolute;
+  width: 48px;
+  height: 826px;
+  top: 119px;
+  left: 1379px;
+  background-color: #f0dbaf;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .ellipse {
+  top: 430px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 18px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+}
+
+.primera-vista .ellipse-2 {
+  top: 380px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 18px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+}
+
+.primera-vista .ellipse-3 {
+  top: 330px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 18px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+}
+
+.primera-vista .component-2 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 157px;
+  left: 47px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .div-wrapper {
+  position: absolute;
+  width: 99px;
+  height: 21px;
+  top: 172px;
+  left: 16px;
+  background-color: #6c4527;
+}
+
+.primera-vista .text-wrapper-2 {
+  position: absolute;
+  width: 87px;
+  height: 19px;
+  top: 0;
+  left: 6px;
+  font-family: var(--placeholder-font-family);
+  font-weight: var(--placeholder-font-weight);
+  color: #ffffff;
+  font-size: var(--placeholder-font-size);
+  text-align: center;
+  letter-spacing: var(--placeholder-letter-spacing);
+  line-height: var(--placeholder-line-height);
+  font-style: var(--placeholder-font-style);
+}
+
+.primera-vista .component-3 {
+  position: absolute;
+  width: 215px;
+  height: 21px;
+  top: 134px;
+  left: 16px;
+  background-color: #6c4527;
+}
+
+.primera-vista .text-wrapper-3 {
+  position: absolute;
+  width: 209px;
+  height: 18px;
+  top: 2px;
+  left: 0;
+  font-family: var(--placeholder-font-family);
+  font-weight: var(--placeholder-font-weight);
+  color: #ffffff;
+  font-size: var(--placeholder-font-size);
+  text-align: center;
+  letter-spacing: var(--placeholder-letter-spacing);
+  line-height: var(--placeholder-line-height);
+  font-style: var(--placeholder-font-style);
+}
+
+.primera-vista .image {
+  width: 215px;
+  height: 106px;
+  top: 17px;
+  left: 16px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.primera-vista .component-4 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 157px;
+  left: 380px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .component-5 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 157px;
+  left: 713px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .component-6 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 157px;
+  left: 1046px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .image-2 {
+  position: absolute;
+  width: 158px;
+  height: 122px;
+  top: 4px;
+  left: 45px;
+  object-fit: cover;
+}
+
+.primera-vista .overlap-2 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 441px;
+  left: 47px;
+  border-radius: 10px;
+}
+
+.primera-vista .component-7 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 0;
+  left: 0;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .component-8 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 441px;
+  left: 380px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .image-3 {
+  position: absolute;
+  width: 220px;
+  height: 112px;
+  top: 11px;
+  left: 11px;
+  object-fit: cover;
+}
+
+.primera-vista .component-9 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 441px;
+  left: 713px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .image-4 {
+  position: absolute;
+  width: 215px;
+  height: 117px;
+  top: 6px;
+  left: 16px;
+  object-fit: cover;
+}
+
+.primera-vista .component-10 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 441px;
+  left: 1046px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .overlap-3 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 725px;
+  left: 47px;
+  border-radius: 10px;
+}
+
+.primera-vista .image-5 {
+  position: absolute;
+  width: 215px;
+  height: 106px;
+  top: 17px;
+  left: 16px;
+}
+
+.primera-vista .component-11 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 725px;
+  left: 380px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .component-12 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 725px;
+  left: 713px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .component-13 {
+  position: absolute;
+  width: 250px;
+  height: 199px;
+  top: 725px;
+  left: 1046px;
+  background-color: #e5d6a3;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .image-wrapper {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 31px;
+  left: 1377px;
+  background-color: #f0dbaf;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.primera-vista .image-6 {
+  width: 44px;
+  height: 44px;
+  top: 3px;
+  left: 3px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.primera-vista .pappel-copia {
+  position: absolute;
+  width: 75px;
+  height: 73px;
+  top: 22px;
+  left: 85px;
+}
