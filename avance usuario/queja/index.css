@@ -1,0 +1,318 @@
+.component-2-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-wheat-100);
+}
+.component-1-child {
+  position: absolute;
+  height: 3.7%;
+  width: 103.33%;
+  top: 46.3%;
+  right: -1.67%;
+  bottom: 50%;
+  left: -1.67%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.component-1-item {
+  position: absolute;
+  height: 3.7%;
+  width: 100%;
+  top: -1.85%;
+  right: 0;
+  bottom: 98.15%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component-1-inner {
+  position: absolute;
+  height: 3.7%;
+  width: 103.33%;
+  top: 98.15%;
+  right: -1.67%;
+  bottom: -1.85%;
+  left: -1.67%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.component-1 {
+  position: absolute;
+  height: 58.7%;
+  width: 65.22%;
+  top: 21.74%;
+  right: 17.39%;
+  bottom: 19.57%;
+  left: 17.39%;
+}
+.component-2 {
+  position: absolute;
+  top: 24px;
+  left: 27px;
+  width: 46px;
+  height: 46px;
+}
+.component-8-item {
+  position: absolute;
+  height: 2.75%;
+  width: 47.5%;
+  top: 50%;
+  right: 25%;
+  bottom: 47.25%;
+  left: 27.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.component-8 {
+  position: absolute;
+  top: 99px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.pappel-copia-removebg-previe-icon {
+  position: absolute;
+  top: 22px;
+  left: 85px;
+  width: 75px;
+  height: 73.2px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.component-102-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: #e5d6a3;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.component-102-inner,
+.component-102-item,
+.rectangle-div {
+  position: absolute;
+  height: 8.46%;
+  border-radius: var(--br-11xl);
+}
+.component-102-item {
+  width: 48.61%;
+  top: 27.84%;
+  right: 42.88%;
+  bottom: 63.7%;
+  left: 8.5%;
+  background-color: var(--color-saddlebrown);
+}
+.component-102-inner,
+.rectangle-div {
+  width: 17.99%;
+  top: 88.64%;
+  right: 31.96%;
+  bottom: 2.9%;
+  left: 50.04%;
+  background-color: red;
+  cursor: pointer;
+}
+.rectangle-div {
+  right: 2.86%;
+  left: 79.14%;
+  background-color: #00f819;
+}
+.aceptar {
+  position: absolute;
+  height: 4.12%;
+  width: 11.1%;
+  top: 90.76%;
+  left: 82.99%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.component-102-child1,
+.component-102-child2 {
+  position: absolute;
+  height: 8.46%;
+  width: 48.61%;
+  top: 16.37%;
+  right: 42.88%;
+  bottom: 75.17%;
+  left: 8.5%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-saddlebrown);
+}
+.component-102-child2 {
+  width: 38.23%;
+  top: 2.9%;
+  right: 53.27%;
+  bottom: 88.64%;
+}
+.queja-0000004 {
+  position: absolute;
+  height: 5.12%;
+  width: 32.59%;
+  top: 4.57%;
+  left: 11.37%;
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--color-wheat-100);
+  display: flex;
+  align-items: center;
+}
+.component-102-child3 {
+  position: absolute;
+  height: 42.65%;
+  width: 90.42%;
+  top: 39.31%;
+  right: 6.45%;
+  bottom: 18.04%;
+  left: 3.13%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-saddlebrown);
+}
+.component-102-child4 {
+  position: absolute;
+  height: 4.57%;
+  width: 44.05%;
+  top: 18.37%;
+  right: 45.57%;
+  bottom: 77.06%;
+  left: 10.38%;
+  border-radius: 5px;
+  background-color: var(--color-beige);
+}
+.no-llego-uno {
+  position: absolute;
+  height: 4.01%;
+  width: 37.24%;
+  top: 18.93%;
+  left: 12%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.arrow-icon {
+  position: absolute;
+  height: 2.34%;
+  width: 1.32%;
+  top: 19.38%;
+  right: 45.86%;
+  bottom: 78.29%;
+  left: 52.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.blank-line {
+  margin: 0;
+}
+.text {
+  position: absolute;
+  height: 4.34%;
+  width: 20.59%;
+  top: 41.31%;
+  left: 5.91%;
+  font-weight: 500;
+  color: var(--color-wheat-100);
+  display: flex;
+  align-items: center;
+}
+.component-102-child5 {
+  position: absolute;
+  height: 31.51%;
+  width: 85.5%;
+  top: 46.66%;
+  right: 9.31%;
+  bottom: 21.83%;
+  left: 5.19%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-beige);
+}
+.cancelar,
+.libreria-sevilla {
+  position: absolute;
+  height: 4.12%;
+  width: 11.1%;
+  top: 90.76%;
+  left: 53.36%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.libreria-sevilla {
+  height: 4.23%;
+  width: 69.02%;
+  top: 30.4%;
+  left: 10.83%;
+  color: var(--color-wheat-100);
+}
+.component-102-child6 {
+  position: absolute;
+  height: 32.29%;
+  width: 25.96%;
+  top: 2.67%;
+  right: 7.16%;
+  bottom: 65.03%;
+  left: 66.88%;
+  border-radius: var(--br-11xl);
+  background-color: #351f13;
+}
+.agregar-foto {
+  top: 16.93%;
+  left: 72.07%;
+  color: var(--color-wheat-100);
+}
+.agregar-foto,
+.de-los-5,
+.descripcion {
+  position: absolute;
+  font-weight: 500;
+}
+.descripcion {
+  height: 4.34%;
+  width: 20.59%;
+  top: 41.31%;
+  left: 5.91%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.de-los-5 {
+  height: 31.51%;
+  width: 82.01%;
+  top: 46.66%;
+  left: 6.54%;
+  font-size: 24px;
+  display: inline-block;
+}
+.component-102 {
+  position: absolute;
+  top: 93px;
+  left: 143px;
+  width: 1117px;
+  height: 898px;
+}
+.queja {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-beige);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
