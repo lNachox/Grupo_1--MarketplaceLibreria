@@ -1,0 +1,462 @@
+.m-modificar-perfil {
+    background-color: #f1ecd0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .m-modificar-perfil .div {
+    background-color: #f1ecd0;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .m-modificar-perfil .overlap {
+    position: absolute;
+    width: 906px;
+    height: 62px;
+    top: 48px;
+    left: 291px;
+    background-image: url(https://c.animaapp.com/KJjiBGEU/img/rectangle-53.svg);
+    background-size: 100% 100%;
+  }
+  
+  .m-modificar-perfil .text-wrapper {
+    position: absolute;
+    width: 284px;
+    height: 34px;
+    top: 13px;
+    left: 21px;
+    opacity: 0.5;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-modificar-perfil .component {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 24px;
+    left: 27px;
+    background-color: #f0dbaf;
+  }
+  
+  .m-modificar-perfil .img {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    top: 9px;
+    left: 8px;
+  }
+  
+  .m-modificar-perfil .overlap-group {
+    position: absolute;
+    width: 48px;
+    height: 826px;
+    top: 160px;
+    left: 1374px;
+  }
+  
+  .m-modificar-perfil .ellipse {
+    top: 390px;
+    left: 24px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-modificar-perfil .ellipse-2 {
+    top: 340px;
+    left: 24px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-modificar-perfil .ellipse-3 {
+    top: 290px;
+    left: 24px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-modificar-perfil .rectangle {
+    position: absolute;
+    width: 48px;
+    height: 826px;
+    top: 0;
+    left: 0;
+    background-color: #f0dbaf;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .m-modificar-perfil .ellipse-4 {
+    top: 431px;
+    left: 19px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-modificar-perfil .ellipse-5 {
+    top: 381px;
+    left: 19px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-modificar-perfil .ellipse-6 {
+    top: 331px;
+    left: 19px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-modificar-perfil .rectangle-2 {
+    position: absolute;
+    width: 79px;
+    height: 69px;
+    top: 24px;
+    left: 1321px;
+    background-color: #f0dbaf;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .m-modificar-perfil .overlap-group-2 {
+    position: absolute;
+    width: 867px;
+    height: 756px;
+    top: 239px;
+    left: 286px;
+    background-color: #f0dbaf;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .m-modificar-perfil .url-www-wrapper {
+    position: absolute;
+    width: 371px;
+    height: 76px;
+    top: 539px;
+    left: 90px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-modificar-perfil .url-www {
+    position: absolute;
+    width: 363px;
+    top: 0;
+    left: 2px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-modificar-perfil .span {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+  }
+  
+  .m-modificar-perfil .text-wrapper-2 {
+    font-style: italic;
+  }
+  
+  .m-modificar-perfil .overlap-2 {
+    position: absolute;
+    width: 453px;
+    height: 76px;
+    top: 640px;
+    left: 414px;
+  }
+  
+  .m-modificar-perfil .rectangle-3 {
+    position: absolute;
+    width: 155px;
+    height: 76px;
+    top: 0;
+    left: 233px;
+    background-color: #38c115;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .m-modificar-perfil .text-wrapper-3 {
+    position: absolute;
+    width: 287px;
+    height: 62px;
+    top: 6px;
+    left: 166px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-modificar-perfil .rectangle-4 {
+    position: absolute;
+    width: 155px;
+    height: 76px;
+    top: 0;
+    left: 66px;
+    background-color: #000000;
+    border-radius: 30px;
+    border: 1px solid;
+  }
+  
+  .m-modificar-perfil .text-wrapper-4 {
+    position: absolute;
+    width: 287px;
+    height: 62px;
+    top: 6px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-modificar-perfil .overlap-3 {
+    position: absolute;
+    width: 427px;
+    height: 76px;
+    top: 426px;
+    left: 62px;
+  }
+  
+  .m-modificar-perfil .rectangle-5 {
+    position: absolute;
+    width: 371px;
+    height: 76px;
+    top: 0;
+    left: 28px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-modificar-perfil .text-wrapper-5 {
+    position: absolute;
+    width: 427px;
+    top: 20px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-modificar-perfil .button-wrapper {
+    position: absolute;
+    width: 70px;
+    height: 76px;
+    top: 9px;
+    left: 767px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-modificar-perfil .button {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    background-color: #ffffff;
+    border-radius: 32px;
+  }
+  
+  .m-modificar-perfil .icon-left {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  
+  .m-modificar-perfil .overlap-4 {
+    position: absolute;
+    width: 281px;
+    height: 76px;
+    top: 94px;
+    left: 506px;
+  }
+  
+  .m-modificar-perfil .rectangle-6 {
+    position: absolute;
+    width: 248px;
+    height: 76px;
+    top: 0;
+    left: 13px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-modificar-perfil .text-wrapper-6 {
+    position: absolute;
+    width: 281px;
+    height: 62px;
+    top: 5px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-modificar-perfil .overlap-5 {
+    position: absolute;
+    width: 248px;
+    height: 324px;
+    top: 294px;
+    left: 527px;
+  }
+  
+  .m-modificar-perfil .rectangle-7 {
+    position: absolute;
+    width: 241px;
+    height: 324px;
+    top: 0;
+    left: 0;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-modificar-perfil .p {
+    position: absolute;
+    width: 240px;
+    height: 123px;
+    top: 20px;
+    left: 8px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-modificar-perfil .div-wrapper {
+    position: absolute;
+    width: 248px;
+    height: 53px;
+    top: 194px;
+    left: 522px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-modificar-perfil .text-wrapper-7 {
+    position: absolute;
+    width: 233px;
+    top: 3px;
+    left: 12px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-modificar-perfil .logo-wrapper {
+    position: absolute;
+    width: 363px;
+    height: 323px;
+    top: 46px;
+    left: 92px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-modificar-perfil .logo {
+    position: absolute;
+    width: 332px;
+    height: 279px;
+    top: 22px;
+    left: 16px;
+    object-fit: cover;
+  }
+  
+  .m-modificar-perfil .overlap-6 {
+    position: absolute;
+    width: 493px;
+    height: 84px;
+    top: 133px;
+    left: 501px;
+    background-color: #6c4527;
+    border-radius: 20px;
+  }
+  
+  .m-modificar-perfil .text-wrapper-8 {
+    position: absolute;
+    width: 455px;
+    height: 58px;
+    top: 12px;
+    left: 19px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-modificar-perfil .pappel-copia {
+    position: absolute;
+    width: 100px;
+    height: 98px;
+    top: 24px;
+    left: 132px;
+  }
+  

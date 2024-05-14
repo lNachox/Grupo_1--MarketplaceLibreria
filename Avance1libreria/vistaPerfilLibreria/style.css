@@ -1,0 +1,436 @@
+.m-perfil-libreria {
+    background-color: #f1ecd0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .m-perfil-libreria .div {
+    background-color: #f1ecd0;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .m-perfil-libreria .overlap {
+    position: absolute;
+    width: 906px;
+    height: 62px;
+    top: 42px;
+    left: 286px;
+    background-image: url(https://c.animaapp.com/aAlmtJWJ/img/rectangle-53.svg);
+    background-size: 100% 100%;
+  }
+  
+  .m-perfil-libreria .text-wrapper {
+    position: absolute;
+    width: 284px;
+    height: 34px;
+    top: 13px;
+    left: 25px;
+    opacity: 0.5;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-perfil-libreria .component {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 24px;
+    left: 27px;
+    background-color: #f0dbaf;
+  }
+  
+  .m-perfil-libreria .img {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    top: 9px;
+    left: 8px;
+  }
+  
+  .m-perfil-libreria .overlap-group {
+    position: absolute;
+    width: 48px;
+    height: 826px;
+    top: 160px;
+    left: 1374px;
+  }
+  
+  .m-perfil-libreria .ellipse {
+    top: 390px;
+    left: 24px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-perfil-libreria .ellipse-2 {
+    top: 340px;
+    left: 24px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-perfil-libreria .ellipse-3 {
+    top: 290px;
+    left: 24px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-perfil-libreria .rectangle {
+    position: absolute;
+    width: 48px;
+    height: 826px;
+    top: 0;
+    left: 0;
+    background-color: #f0dbaf;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .m-perfil-libreria .ellipse-4 {
+    top: 431px;
+    left: 19px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-perfil-libreria .ellipse-5 {
+    top: 381px;
+    left: 19px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-perfil-libreria .ellipse-6 {
+    top: 331px;
+    left: 19px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-perfil-libreria .rectangle-2 {
+    position: absolute;
+    width: 79px;
+    height: 69px;
+    top: 24px;
+    left: 1321px;
+    background-color: #f0dbaf;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .m-perfil-libreria .overlap-group-2 {
+    position: absolute;
+    width: 760px;
+    height: 756px;
+    top: 228px;
+    left: 340px;
+  }
+  
+  .m-perfil-libreria .rectangle-3 {
+    position: absolute;
+    width: 747px;
+    height: 756px;
+    top: 0;
+    left: 13px;
+    background-color: #f0dbaf;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .m-perfil-libreria .rectangle-4 {
+    position: absolute;
+    width: 371px;
+    height: 76px;
+    top: 641px;
+    left: 28px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-perfil-libreria .url-www {
+    position: absolute;
+    width: 363px;
+    top: 641px;
+    left: 30px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-perfil-libreria .span {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+  }
+  
+  .m-perfil-libreria .text-wrapper-2 {
+    font-style: italic;
+  }
+  
+  .m-perfil-libreria .rectangle-5 {
+    position: absolute;
+    width: 201px;
+    height: 76px;
+    top: 641px;
+    left: 478px;
+    background-color: #38c115;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .m-perfil-libreria .text-wrapper-3 {
+    position: absolute;
+    width: 287px;
+    height: 62px;
+    top: 647px;
+    left: 435px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-perfil-libreria .rectangle-6 {
+    position: absolute;
+    width: 70px;
+    height: 76px;
+    top: 6px;
+    left: 675px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-perfil-libreria .button {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    position: absolute;
+    top: 26px;
+    left: 690px;
+    background-color: #ffffff;
+    border-radius: 32px;
+  }
+  
+  .m-perfil-libreria .icon-left {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  
+  .m-perfil-libreria .rectangle-7 {
+    position: absolute;
+    width: 248px;
+    height: 76px;
+    top: 91px;
+    left: 427px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-perfil-libreria .text-wrapper-4 {
+    position: absolute;
+    width: 281px;
+    height: 62px;
+    top: 96px;
+    left: 414px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-perfil-libreria .rectangle-8 {
+    position: absolute;
+    width: 371px;
+    height: 76px;
+    top: 415px;
+    left: 28px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-perfil-libreria .text-wrapper-5 {
+    position: absolute;
+    width: 399px;
+    top: 418px;
+    left: 19px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-perfil-libreria .rectangle-9 {
+    position: absolute;
+    width: 241px;
+    height: 324px;
+    top: 291px;
+    left: 435px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-perfil-libreria .p {
+    position: absolute;
+    width: 240px;
+    height: 123px;
+    top: 311px;
+    left: 443px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-perfil-libreria .rectangle-10 {
+    position: absolute;
+    width: 371px;
+    height: 76px;
+    top: 528px;
+    left: 28px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-perfil-libreria .text-wrapper-6 {
+    position: absolute;
+    width: 427px;
+    top: 548px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-perfil-libreria .rectangle-11 {
+    position: absolute;
+    width: 248px;
+    height: 53px;
+    top: 191px;
+    left: 430px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-perfil-libreria .text-wrapper-7 {
+    position: absolute;
+    width: 233px;
+    top: 194px;
+    left: 442px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-perfil-libreria .rectangle-12 {
+    position: absolute;
+    width: 363px;
+    height: 323px;
+    top: 44px;
+    left: 28px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-perfil-libreria .logo {
+    position: absolute;
+    width: 332px;
+    height: 279px;
+    top: 66px;
+    left: 44px;
+    object-fit: cover;
+  }
+  
+  .m-perfil-libreria .div-wrapper {
+    position: absolute;
+    width: 493px;
+    height: 84px;
+    top: 125px;
+    left: 480px;
+    background-color: #6c4527;
+    border-radius: 20px;
+  }
+  
+  .m-perfil-libreria .text-wrapper-8 {
+    position: absolute;
+    width: 455px;
+    height: 58px;
+    top: 12px;
+    left: 19px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-perfil-libreria .pappel-copia {
+    position: absolute;
+    width: 100px;
+    height: 98px;
+    top: 21px;
+    left: 130px;
+  }
+  

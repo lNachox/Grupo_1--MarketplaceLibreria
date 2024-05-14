@@ -1,0 +1,413 @@
+.component-2-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-wheat-100);
+}
+.component-1-child {
+  position: absolute;
+  height: 3.7%;
+  width: 103.33%;
+  top: 46.3%;
+  right: -1.67%;
+  bottom: 50%;
+  left: -1.67%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.component-1-item {
+  position: absolute;
+  height: 3.7%;
+  width: 100%;
+  top: -1.85%;
+  right: 0;
+  bottom: 98.15%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component-1-inner {
+  position: absolute;
+  height: 3.7%;
+  width: 103.33%;
+  top: 98.15%;
+  right: -1.67%;
+  bottom: -1.85%;
+  left: -1.67%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.component-1 {
+  position: absolute;
+  height: 58.7%;
+  width: 65.22%;
+  top: 21.74%;
+  right: 17.39%;
+  bottom: 19.57%;
+  left: 17.39%;
+}
+.component-2 {
+  position: absolute;
+  top: 24px;
+  left: 27px;
+  width: 46px;
+  height: 46px;
+}
+.component-3-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-wheat-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.component-3-inner,
+.component-3-item {
+  position: absolute;
+  height: 77.33%;
+  width: 17.08%;
+  top: 11.33%;
+  right: 81.92%;
+  bottom: 11.33%;
+  left: 1%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-saddlebrown);
+}
+.component-3-inner {
+  height: 17.33%;
+  width: 42.25%;
+  right: 36.92%;
+  bottom: 71.33%;
+  left: 20.83%;
+  background-color: var(--color-gray);
+  display: none;
+}
+.component-3-child1,
+.rectangle-div {
+  position: absolute;
+  height: 33.33%;
+  width: 4.17%;
+  top: 28.67%;
+  right: 4.42%;
+  bottom: 38%;
+  left: 91.42%;
+  background-color: var(--color-saddlebrown);
+}
+.component-3-child1 {
+  height: 48.67%;
+  width: 61.5%;
+  top: 44.67%;
+  right: 17.67%;
+  bottom: 6.67%;
+  left: 20.83%;
+  border-radius: var(--br-xl);
+}
+.component-3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.component-40-child {
+  position: absolute;
+  height: 17.33%;
+  width: 11%;
+  top: 11.33%;
+  right: 17.67%;
+  bottom: 71.33%;
+  left: 71.33%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-saddlebrown);
+}
+.div {
+  position: absolute;
+  top: 14.67%;
+  left: 75%;
+  font-weight: 500;
+}
+.icon-left {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.button {
+  position: absolute;
+  height: 24%;
+  width: 3%;
+  top: 33.33%;
+  right: 5%;
+  bottom: 42.67%;
+  left: 92%;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-red);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.component-40-item,
+.image-18-icon {
+  position: absolute;
+  border-radius: var(--br-11xl);
+}
+.image-18-icon {
+  height: 70.67%;
+  width: 14.58%;
+  top: 14.67%;
+  right: 83.33%;
+  bottom: 14.67%;
+  left: 2.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-40-item {
+  height: 17.33%;
+  width: 40.83%;
+  top: 11.33%;
+  right: 38.33%;
+  bottom: 71.33%;
+  left: 20.83%;
+  background-color: var(--color-saddlebrown);
+}
+.estuche-angoo-triangular {
+  position: absolute;
+  height: 10%;
+  width: 25.42%;
+  top: 14.67%;
+  left: 22%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.estuche-de-tela {
+  margin: 0;
+}
+.estuche-de-tela-container1 {
+  width: 100%;
+}
+.estuche-de-tela-container {
+  position: absolute;
+  height: 32.67%;
+  width: 59.67%;
+  top: 52.67%;
+  left: 21.75%;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.component-40,
+.image-23-icon {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  width: 1200px;
+  height: 150px;
+}
+.image-23-icon {
+  height: 66.67%;
+  width: 8.33%;
+  top: 16.67%;
+  right: 86.25%;
+  bottom: 16.67%;
+  left: 5.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.plumn-doble-punta {
+  position: absolute;
+  height: 10%;
+  width: 25.42%;
+  top: 14.67%;
+  left: 22%;
+  font-weight: 500;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.component-51,
+.image-21-icon {
+  position: absolute;
+  top: 920px;
+  left: 120px;
+  width: 1200px;
+  height: 150px;
+}
+.image-21-icon {
+  height: 59.33%;
+  width: 5.58%;
+  top: 20%;
+  right: 87.67%;
+  bottom: 20.67%;
+  left: 6.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div2 {
+  position: absolute;
+  top: 14.67%;
+  left: 75.08%;
+  font-weight: 500;
+}
+.component-49 {
+  position: absolute;
+  top: 520px;
+  left: 120px;
+  width: 1200px;
+  height: 150px;
+}
+.div3 {
+  position: absolute;
+  top: 14.67%;
+  left: 74.75%;
+  font-weight: 500;
+}
+.component-48,
+.image-20-icon {
+  position: absolute;
+  top: 320px;
+  left: 120px;
+  width: 1200px;
+  height: 150px;
+}
+.image-20-icon {
+  height: 10.55%;
+  width: 12.99%;
+  top: 33.4%;
+  right: 77.29%;
+  bottom: 56.05%;
+  left: 9.72%;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-47-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-wheat-100);
+}
+.image-17-icon {
+  position: absolute;
+  height: 88%;
+  width: 88%;
+  top: 6%;
+  right: 6%;
+  bottom: 6%;
+  left: 6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-47 {
+  position: absolute;
+  top: 31px;
+  left: 1377px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.pappel-copia-removebg-previe-icon {
+  position: absolute;
+  top: 22px;
+  left: 85px;
+  width: 75px;
+  height: 73.2px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.carrito-de-compra-child {
+  position: absolute;
+  top: 106px;
+  left: 1374px;
+  border-radius: 40px;
+  background-color: var(--color-wheat-200);
+  width: 28px;
+  height: 831px;
+}
+.carrito-de-compra-item {
+  position: absolute;
+  top: 22px;
+  left: 473px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-saddlebrown);
+  width: 493px;
+  height: 84px;
+}
+.carrito-de-compras {
+  position: absolute;
+  top: 35px;
+  left: 492px;
+  font-size: 48px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 455px;
+  height: 58px;
+}
+.image-22-icon {
+  position: absolute;
+  height: 68.6%;
+  width: 8.33%;
+  top: 16%;
+  right: 86.25%;
+  bottom: 15.4%;
+  left: 5.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-50 {
+  position: absolute;
+  top: 720px;
+  left: 120px;
+  width: 1200px;
+  height: 150px;
+}
+.carrito-de-compra {
+  width: 100%;
+  position: relative;
+  background-color: #f1ecd0;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--placeholder-size);
+  color: var(--color-white);
+  font-family: var(--placeholder);
+}

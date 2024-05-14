@@ -1,0 +1,11 @@
+:root {
+    --neutralnl-3: rgba(244, 245, 246, 1);
+    --neutralnl-2: rgba(211, 215, 217, 1);
+    --placeholder-font-family: "Inter", Helvetica;
+    --placeholder-font-weight: 500;
+    --placeholder-font-size: 12px;
+    --placeholder-letter-spacing: 0px;
+    --placeholder-line-height: normal;
+    --placeholder-font-style: normal;
+  }
+  
