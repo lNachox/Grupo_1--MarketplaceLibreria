@@ -1,0 +1,360 @@
+.vista-de-producto-en {
+    background-color: #f1ecd0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .vista-de-producto-en .div {
+    background-color: #f1ecd0;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .vista-de-producto-en .component {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 17px;
+    left: 27px;
+    background-color: #e5d6a3;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vista-de-producto-en .img {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    top: 8px;
+    left: 7px;
+  }
+  
+  .vista-de-producto-en .overlap {
+    position: absolute;
+    width: 906px;
+    height: 62px;
+    top: 40px;
+    left: 267px;
+    background-image: url(https://c.animaapp.com/KjO2aSY0/img/rectangle-82.svg);
+    background-size: 100% 100%;
+  }
+  
+  .vista-de-producto-en .text-wrapper {
+    position: absolute;
+    width: 625px;
+    top: 9px;
+    left: 49px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .image {
+    width: 69px;
+    height: 69px;
+    top: 24px;
+    left: 1326px;
+    mix-blend-mode: darken;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .vista-de-producto-en .overlap-group {
+    position: absolute;
+    width: 407px;
+    height: 835px;
+    top: 179px;
+    left: 10px;
+    background-color: #e5d6a3;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vista-de-producto-en .div-wrapper {
+    position: absolute;
+    width: 363px;
+    height: 62px;
+    top: 443px;
+    left: 17px;
+    background-color: #6c4527;
+    border-radius: 20px;
+  }
+  
+  .vista-de-producto-en .text-wrapper-2 {
+    position: absolute;
+    width: 294px;
+    top: 11px;
+    left: 38px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .overlap-2 {
+    position: absolute;
+    width: 363px;
+    height: 62px;
+    top: 310px;
+    left: 17px;
+    background-color: #6c4527;
+    border-radius: 20px;
+  }
+  
+  .vista-de-producto-en .text-wrapper-3 {
+    position: absolute;
+    width: 317px;
+    top: 12px;
+    left: 23px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .overlap-3 {
+    position: absolute;
+    width: 363px;
+    height: 62px;
+    top: 44px;
+    left: 17px;
+    background-color: #6c4527;
+    border-radius: 20px;
+  }
+  
+  .vista-de-producto-en .text-wrapper-4 {
+    position: absolute;
+    width: 188px;
+    top: 9px;
+    left: 88px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .overlap-4 {
+    position: absolute;
+    width: 363px;
+    height: 62px;
+    top: 177px;
+    left: 17px;
+    background-color: #6c4527;
+    border-radius: 20px;
+  }
+  
+  .vista-de-producto-en .text-wrapper-5 {
+    position: absolute;
+    width: 240px;
+    top: 11px;
+    left: 62px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .overlap-group-2 {
+    position: absolute;
+    width: 941px;
+    height: 835px;
+    top: 179px;
+    left: 459px;
+    background-color: #e5d6a3;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vista-de-producto-en .image-2 {
+    width: 419px;
+    height: 310px;
+    top: 58px;
+    left: 50px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .vista-de-producto-en .estuche-angoo-wrapper {
+    position: absolute;
+    width: 402px;
+    height: 62px;
+    top: 62px;
+    left: 504px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .vista-de-producto-en .estuche-angoo {
+    position: absolute;
+    width: 342px;
+    top: 16px;
+    left: 33px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .span {
+    font-style: italic;
+  }
+  
+  .vista-de-producto-en .text-wrapper-6 {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  
+  .vista-de-producto-en .overlap-5 {
+    position: absolute;
+    width: 402px;
+    height: 62px;
+    top: 175px;
+    left: 504px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .vista-de-producto-en .text-wrapper-7 {
+    position: absolute;
+    width: 177px;
+    top: 11px;
+    left: 33px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .overlap-6 {
+    position: absolute;
+    width: 402px;
+    height: 62px;
+    top: 283px;
+    left: 504px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .vista-de-producto-en .text-wrapper-8 {
+    position: absolute;
+    width: 113px;
+    top: 7px;
+    left: 33px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .overlap-7 {
+    position: absolute;
+    width: 342px;
+    height: 92px;
+    top: 720px;
+    left: 534px;
+    background-color: #ff0000;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vista-de-producto-en .text-wrapper-9 {
+    position: absolute;
+    width: 270px;
+    top: 24px;
+    left: 50px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .overlap-8 {
+    position: absolute;
+    width: 342px;
+    height: 92px;
+    top: 720px;
+    left: 75px;
+    background-color: #00f718;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vista-de-producto-en .text-wrapper-10 {
+    position: absolute;
+    width: 237px;
+    top: 24px;
+    left: 50px;
+    -webkit-text-stroke: 1px #ffffff;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vista-de-producto-en .estuche-de-tela-con-wrapper {
+    position: absolute;
+    width: 872px;
+    height: 268px;
+    top: 422px;
+    left: 34px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .vista-de-producto-en .estuche-de-tela-con {
+    position: absolute;
+    width: 836px;
+    height: 204px;
+    top: 4px;
+    left: 27px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  

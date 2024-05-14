@@ -1,0 +1,427 @@
+.m-vista-estado {
+    background-color: #f1ecd0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .m-vista-estado .div {
+    background-color: #f1ecd0;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .m-vista-estado .overlap {
+    position: absolute;
+    width: 906px;
+    height: 62px;
+    top: 50px;
+    left: 285px;
+    background-image: url(https://c.animaapp.com/f9lWgWEV/img/rectangle-53.svg);
+    background-size: 100% 100%;
+  }
+  
+  .m-vista-estado .text-wrapper {
+    position: absolute;
+    width: 284px;
+    height: 34px;
+    top: 13px;
+    left: 18px;
+    opacity: 0.5;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-vista-estado .component {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 24px;
+    left: 27px;
+    background-color: #f0dbaf;
+  }
+  
+  .m-vista-estado .img {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    top: 9px;
+    left: 8px;
+  }
+  
+  .m-vista-estado .overlap-group {
+    position: absolute;
+    width: 48px;
+    height: 826px;
+    top: 160px;
+    left: 1374px;
+  }
+  
+  .m-vista-estado .ellipse {
+    top: 390px;
+    left: 24px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-vista-estado .ellipse-2 {
+    top: 340px;
+    left: 24px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-vista-estado .ellipse-3 {
+    top: 290px;
+    left: 24px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-vista-estado .rectangle {
+    position: absolute;
+    width: 48px;
+    height: 826px;
+    top: 0;
+    left: 0;
+    background-color: #f0dbaf;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .m-vista-estado .ellipse-4 {
+    top: 431px;
+    left: 19px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-vista-estado .ellipse-5 {
+    top: 381px;
+    left: 19px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-vista-estado .ellipse-6 {
+    top: 331px;
+    left: 19px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 7.5px;
+  }
+  
+  .m-vista-estado .rectangle-2 {
+    position: absolute;
+    width: 79px;
+    height: 69px;
+    top: 24px;
+    left: 1321px;
+    background-color: #f0dbaf;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .m-vista-estado .overlap-group-2 {
+    position: absolute;
+    width: 865px;
+    height: 716px;
+    top: 258px;
+    left: 353px;
+  }
+  
+  .m-vista-estado .rectangle-3 {
+    position: absolute;
+    width: 750px;
+    height: 716px;
+    top: 0;
+    left: 0;
+    background-color: #f0dbaf;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .m-vista-estado .rectangle-4 {
+    position: absolute;
+    width: 527px;
+    height: 61px;
+    top: 203px;
+    left: 92px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-vista-estado .rectangle-5 {
+    position: absolute;
+    width: 194px;
+    height: 60px;
+    top: 639px;
+    left: 300px;
+    background-color: #000000;
+    border-radius: 30px;
+    border: 1px solid;
+  }
+  
+  .m-vista-estado .rectangle-6 {
+    position: absolute;
+    width: 195px;
+    height: 60px;
+    top: 639px;
+    left: 506px;
+    background-color: #38c115;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .m-vista-estado .text-wrapper-2 {
+    position: absolute;
+    width: 121px;
+    height: 29px;
+    top: 653px;
+    left: 565px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .m-vista-estado .rectangle-7 {
+    position: absolute;
+    width: 527px;
+    height: 61px;
+    top: 121px;
+    left: 92px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-vista-estado .rectangle-8 {
+    position: absolute;
+    width: 527px;
+    height: 60px;
+    top: 38px;
+    left: 92px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-vista-estado .p {
+    position: absolute;
+    width: 459px;
+    height: 36px;
+    top: 51px;
+    left: 113px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .m-vista-estado .component-2 {
+    position: absolute;
+    width: 39px;
+    height: 32px;
+    top: 23px;
+    left: 13px;
+  }
+  
+  .m-vista-estado .rectangle-9 {
+    position: absolute;
+    width: 664px;
+    height: 306px;
+    top: 285px;
+    left: 34px;
+    background-color: #6c4527;
+    border-radius: 30px;
+  }
+  
+  .m-vista-estado .rectangle-10 {
+    position: absolute;
+    width: 477px;
+    height: 32px;
+    top: 136px;
+    left: 113px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .m-vista-estado .text-wrapper-3 {
+    position: absolute;
+    width: 403px;
+    height: 28px;
+    top: 139px;
+    left: 130px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .m-vista-estado .arrow {
+    position: absolute;
+    width: 15px;
+    height: 17px;
+    top: 143px;
+    left: 565px;
+  }
+  
+  .m-vista-estado .text-wrapper-4 {
+    position: absolute;
+    width: 223px;
+    height: 31px;
+    top: 299px;
+    left: 64px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .m-vista-estado .rectangle-11 {
+    position: absolute;
+    width: 612px;
+    height: 226px;
+    top: 338px;
+    left: 58px;
+    background-color: #ffffff;
+  }
+  
+  .m-vista-estado .text-wrapper-5 {
+    position: absolute;
+    width: 121px;
+    height: 29px;
+    top: 653px;
+    left: 335px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .m-vista-estado .text-wrapper-6 {
+    position: absolute;
+    width: 748px;
+    height: 30px;
+    top: 221px;
+    left: 117px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .m-vista-estado .no-tenemos-stock {
+    position: absolute;
+    width: 748px;
+    height: 30px;
+    top: 371px;
+    left: 75px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .m-vista-estado .button {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    position: absolute;
+    top: 15px;
+    left: 701px;
+    background-color: #ffffff;
+    border-radius: 32px;
+  }
+  
+  .m-vista-estado .icon-left {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  
+  .m-vista-estado .div-wrapper {
+    position: absolute;
+    width: 493px;
+    height: 84px;
+    top: 145px;
+    left: 488px;
+    background-color: #6c4527;
+    border-radius: 20px;
+  }
+  
+  .m-vista-estado .text-wrapper-7 {
+    position: absolute;
+    width: 455px;
+    height: 58px;
+    top: 12px;
+    left: 19px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .m-vista-estado .pappel-copia {
+    position: absolute;
+    width: 100px;
+    height: 98px;
+    top: 24px;
+    left: 129px;
+  }
+  
