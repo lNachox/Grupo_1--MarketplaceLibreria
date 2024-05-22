@@ -6,33 +6,33 @@
     </div>
     <div v-if="activeTab === 'login'" class="login-form">
       <form @submit.prevent="login">
-        <input type="email" placeholder="Correo" v-model="loginEmail">
-        <input type="password" placeholder="Contraseña" v-model="loginPassword">
+        <input type="email" placeholder="Correo" v-model="loginEmail" required>
+        <input type="password" placeholder="Contraseña" v-model="loginPassword" required>
         <button type="submit">Continuar</button>
       </form>
     </div>
     <div v-if="activeTab === 'register'" class="register-form">
       <div class="roles-tabs">
         <div class="role-tab" :class="{active: selectedRole === 'buyer'}" @click="selectedRole = 'buyer'">Usuario Comprador</div>
-        <div class="role-tab" :class="{active: selectedRole === 'library'}" @click="selectedRole = 'library'">Usuario Libreria</div>
+        <div class="role-tab" :class="{active: selectedRole === 'library'}" @click="selectedRole = 'library'">Usuario Proveedor</div>
       </div>
       <form @submit.prevent="register">
-      <div v-if="selectedRole === 'library'">
-        <!-- Library User Registration Fields -->
-        <input type="text" placeholder="Nombre empresa" v-model="registerCompanyName">
-        <input type="email" placeholder="Correo" v-model="registerEmail">
-        <input type="password" placeholder="Contraseña" v-model="registerPassword">
-        <input type="password" placeholder="Repetir Contraseña" v-model="registerConfirmPassword">
-        <input type="text" placeholder="URL" v-model="registerURL">
-      </div>
-      <div v-else>
-        <!-- Buyer Registration Fields -->
-        <input type="text" placeholder="Nombre" v-model="registerName">
-        <input type="email" placeholder="Correo" v-model="registerEmail">
-        <input type="password" placeholder="Contraseña" v-model="registerPassword">
-        <input type="password" placeholder="Repetir Contraseña" v-model="registerConfirmPassword">
-      </div>
-      <button type="submit">Registrarse</button>
+        <div v-if="selectedRole === 'library'">
+          <!-- Supplier User Registration Fields -->
+          <input type="text" placeholder="Nombre empresa" v-model="registerCompanyName" required>
+          <input type="email" placeholder="Correo" v-model="registerEmail" required>
+          <input type="password" placeholder="Contraseña" v-model="registerPassword" required>
+          <input type="password" placeholder="Repetir Contraseña" v-model="registerConfirmPassword" required>
+          <input type="text" placeholder="URL" v-model="registerURL" required>
+        </div>
+        <div v-else>
+          <!-- Buyer Registration Fields -->
+          <input type="text" placeholder="Nombre" v-model="registerName" required>
+          <input type="email" placeholder="Correo" v-model="registerEmail" required>
+          <input type="password" placeholder="Contraseña" v-model="registerPassword" required>
+          <input type="password" placeholder="Repetir Contraseña" v-model="registerConfirmPassword" required>
+        </div>
+        <button type="submit">Registrarse</button>
       </form>
     </div>
     <div v-if="showPopup" class="popup show">{{ popupMessage }}</div>
@@ -62,37 +62,38 @@ export default {
       const response = await import('@/data/users.json');
       return response.default;
     },
-    togglePopup() {
+    togglePopup(message) {
+      this.popupMessage = message;
       this.showPopup = true;
       setTimeout(() => {
         this.showPopup = false;
       }, 2500);
     },
     async login() {
-      const users = await this.fetchUsers();
-      const matchingUser = users.find((userItem) => userItem.email === this.loginEmail);
-      if (matchingUser) {
-        sessionStorage.setItem('user', JSON.stringify(matchingUser));
-        this.popupMessage = 'Bienvenido ' + matchingUser.name + '.';
-        this.togglePopup();
-      } else {
-        this.popupMessage = 'No se encontró usuario con ese correo.';
-        this.togglePopup();
-      }
-    },
-    async register() {
-      const users = await this.fetchUsers();
-      
-      if (!this.validateForm()) {
-        this.popupMessage = 'Por favor, asegúrate de que todos los campos estén correctamente llenos.';
-        this.togglePopup();
+      if (!this.loginEmail || !this.loginPassword) {
+        this.togglePopup('Por favor, ingresa un correo y una contraseña válidos.');
         return;
       }
 
+      const users = await this.fetchUsers();
+      const matchingUser = users.find((userItem) => userItem.email === this.loginEmail && userItem.password === this.loginPassword);
+      if (matchingUser) {
+        sessionStorage.setItem('user', JSON.stringify(matchingUser));
+        this.togglePopup('Bienvenido ' + matchingUser.name + '.');
+      } else {
+        this.togglePopup('Credenciales incorrectas. Por favor, intenta de nuevo.');
+      }
+    },
+    async register() {
+      if (!this.validateForm()) {
+        this.togglePopup('Por favor, asegúrate de que todos los campos estén correctamente llenos y que las contraseñas coincidan.');
+        return;
+      }
+
+      const users = await this.fetchUsers();
       const userExists = users.some(user => user.email === this.registerEmail);
       if (userExists) {
-        this.popupMessage = 'Ya existe un usuario con ese correo electrónico.';
-        this.togglePopup();
+        this.togglePopup('Ya existe un usuario con ese correo electrónico.');
         return;
       }
 
@@ -100,21 +101,32 @@ export default {
         id: users.length + 1,
         name: this.registerName,
         email: this.registerEmail,
-        description: 'Nuevo usuario',
+        password: this.registerPassword, // Agrega la contraseña al nuevo usuario
+        role: this.selectedRole,
+        // Agrega más campos según sea necesario
       };
 
-      this.popupMessage = 'Bienvenido, ' + this.registerName + '.';
-      this.togglePopup();
+      users.push(newUser); // Agrega el nuevo usuario al array
+      // Anotacion:
+      // Guarda los usuarios actualizados
+      // Este paso puede variar según cómo estés manejando tus datos
+      // Si estás utilizando algún backend o almacenamiento persistente, ajusta esta lógica en consecuencia
+      // Por ejemplo:
+      // await this.saveUsers(users);
 
+      this.togglePopup('Bienvenido, ' + this.registerName + '. Ahora puedes iniciar sesión.');
+      this.resetRegistrationFields();
+    },
+    validateForm() {
+      return this.registerPassword === this.registerConfirmPassword;
+    },
+    resetRegistrationFields() {
       this.registerName = '';
       this.registerEmail = '';
       this.registerPassword = '';
       this.registerConfirmPassword = '';
       this.registerCompanyName = '';
       this.registerURL = '';
-    },
-    validateForm() {
-      return this.registerPassword === this.registerConfirmPassword;
     }
   }
 }
