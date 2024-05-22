@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Colorful Pencils",
+        "email": "colorfulpencils@works.com",
+        "image": "",
+        "description": "",
+        "password":"abc1",
+        "URL":"colorfulpencils.cl"
+    },
+    {
+        "id": 2,
+        "name": "Mi Pedaso de Arte",
+        "email": "miartecl@works.com",
+        "image": "",
+        "description": "",
+        "password":"abc12",
+        "URL":"miartechile.com"
+    },
+    {
+        "id": 3,
+        "name": "Good ideas",
+        "email": "goodideascl@works.com",
+        "image": "",
+        "description": "",
+        "password":"abc123",
+        "URL":"goodideas.cl"
+    }
+]
