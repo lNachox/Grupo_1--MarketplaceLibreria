@@ -5,7 +5,7 @@ import ProductDetail from '../components/views/ProductDetail.vue';
 import PageNotFound from '@/components/views/PageNotFound.vue';
 import UserList from '../components/views/UserList.vue';
 import UserDetail from '../components/views/UserDetail.vue';
-
+import UserAuth from '../components/views/UserAuth.vue';
 
 const routes = [
   {
@@ -32,6 +32,11 @@ const routes = [
     path: '/:catchAll(.*)*',
     name: 'PageNotFound',
     component: PageNotFound
+  },
+  {
+    path: '/userAuth',
+    name: 'UserAuth',
+    component: UserAuth
   }
 ];
 
