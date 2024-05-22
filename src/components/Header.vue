@@ -19,6 +19,11 @@
         <button class="profile-button" @click="handleClick('profile')"> 
         <img src="./assets/img/user-icon.png" alt="profile" /></button>
       </router-link>
+
+      <router-link :to="cartLink"><button class="cart-button">
+        <img src="./assets/img/cart-icon.png" alt="cart" />
+      </button></router-link>
+
     </div>
     <div class="sidebar" :class="{ open: isSidebarOpen }">
       <router-link :to="userProfileLink"><div>Perfil</div></router-link>
@@ -41,6 +46,12 @@ export default {
   computed: {
     userProfileLink() {
       return this.userId ? `/user/${this.userId}` : '/userAuth';
+    },
+    complaintsLink(){
+      return this.userId ? `/complaints` : '/userAuth';
+    },
+    cartLink(){
+      return this.userId ? `/cart` : '/userAuth';
     }
   },
   created() {
@@ -123,6 +134,7 @@ export default {
   z-index: 7000; /* Ensure the menu button is above the sidebar */
   position: relative;
 }
+.cart-button,
 .profile-button,
 .logo-button {
   background: none;
@@ -134,7 +146,13 @@ export default {
 .menu-button {
   margin-right: auto; 
 }
+.cart-button {
+  height: 40px;
+}
 
+.cart-button img{
+  height: 40px;
+}
 .logo-button {
   margin-left: auto; 
   margin-right: auto; 

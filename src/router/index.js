@@ -8,6 +8,7 @@ import UserDetail from '../components/views/UserDetail.vue';
 import UserAuth from '../components/views/UserAuth.vue';
 import UserProfileEdit from '../components/views/UserProfileEdit.vue'
 import Complaints from '../components/views/Complaints.vue'
+import ShoppingCart from '../components/views/ShoppingCart.vue'
 const routes = [
   {
     path: '/',
@@ -40,14 +41,18 @@ const routes = [
     component: UserAuth
   },
   {
-    path: '/editprofile', 
-    name: 'editprofile', 
+    path: '/user/:id', 
+    name: 'EditProfile', 
     component: UserProfileEdit
   },
   {
     path: '/complaints',
     name: 'complaints',
     component: Complaints
+  },
+  { path: '/cart', 
+  name: 'cart', 
+  component: ShoppingCart
   }
 ];
 
