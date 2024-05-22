@@ -50,61 +50,82 @@ export default {
 .user {
     display: flex;
     align-items: center;
-    border: 
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
     background-color: #f5e2b7;
     padding: 10px;
+    border-radius: 10px;
     margin-bottom: 1rem;
+    overflow: hidden;
 }
 
 .user-image {
-    width: 200px;
-    height: 200px;
+    min-width: 215px; max-width: 215px;
+    min-height: 150px; min-height: 150px;
     object-fit: cover;
-    margin-right: 1rem;
+    margin-right: 10px;
+    border-radius: 1px;
 }
 
 .user-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .user-details h2 {
-    margin: 0 0 1rem 0;
+    margin: 0.5;
+  font-size: 1.2rem;
+  background-color: #8b5e34;
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
 }
 
 .email {
-    color: #8b5e34;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  font-weight: bold;
+  color: #000000;
+  background-color: #d0a671;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-start;
 }
 
 .description {
-    margin-bottom: 1rem;
+    margin: 5px 0;
+  background-color: #8b5e34;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .detail-button {
-    background-color: #8b5e34;
+    background-color: #4CAF50;
     color: white;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 1rem;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 10%;
 }
 
 .detail-button:hover {
-    background-color: #6e492b;
+    background-color: #45a049;
 }
 
 .remove-button {
     background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
 }
 
 .remove-button:hover {
