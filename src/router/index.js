@@ -11,8 +11,6 @@ import Complaints from '../components/views/Complaints.vue'
 import ShoppingCart from '../components/views/ShoppingCart.vue'
 import SupplierDetail from '@/components/views/SupplierDetail.vue';
 import SupplierProfileEdit from '@/components/views/SupplierProfileEdit.vue';
-import SuppComplaints from '@/components/views/SuppComplaints.vue';
-
 
 const routes = [
   {
@@ -64,11 +62,6 @@ const routes = [
     path: '/supplierdetail',
     name: 'supplierdetail',
     component: SupplierDetail
-  },
-  {
-    path: '/suppcomplaints',
-    name: 'suppcomplaints',
-    component: SuppComplaints
   },
   {
     path: '/supplierprofileedit',
