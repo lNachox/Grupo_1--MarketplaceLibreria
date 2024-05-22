@@ -1,3 +1,4 @@
+
 <template>
   <div class="product-detail">
     <div class="sidebar">
@@ -12,7 +13,8 @@
         <div class="product-meta-item">Vendedor: {{ product.supplier }}</div>
         <div class="product-meta-item">Precio: {{ product.price }}</div>
       </div>
-      <p> Etiquetas: {{product.label1}}, {{ product.label2 }}</p>
+      <p>Etiquetas: {{ product.label1 }}, {{ product.label2 }}</p>
+      <button @click="addToCart">Añadir al Carrito</button>
       <button @click="removeProduct">Eliminar Producto</button>
     </div>
   </div>
@@ -33,6 +35,9 @@ export default {
     this.product = productData.find(product => product.id === productId);
   },
   methods: {
+    addToCart() {
+      this.$emit('add-to-cart', this.product);
+    },
     removeProduct() {
       console.log(`Producto con ID ${this.product.id} eliminado.`);
     }
@@ -73,7 +78,7 @@ export default {
 }
 
 .product-meta {
-  margin-bottom: rem;
+  margin-bottom: 1rem;
 }
 
 .product-meta-item {
@@ -98,15 +103,24 @@ export default {
 }
 
 button {
-  background-color: red;
+  background-color: #4CAF50;
   color: white;
   border: none;
   padding: 1rem;
   cursor: pointer;
   width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 button:hover {
+  background-color: #45a049;
+}
+
+button:last-child {
+  background-color: red;
+}
+
+button:last-child:hover {
   background-color: darkred;
 }
 </style>
