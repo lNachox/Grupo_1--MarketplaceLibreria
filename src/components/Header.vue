@@ -1,26 +1,26 @@
 <template>
   <header class="header">
-    <button class="menu-button" @click="handleClick('menu')">☰</button>
     <div class="header-content">
+
+      <router-link :to="userProfileLink">
+        <button class="menu-button" @click="handleClick('menu')">☰</button>
+      </router-link>
+
+
       <router-link :to="{ name: 'ProductList', params: { id: id } }">
         <button class="logo-button" @click="handleClick('home')">
           <img src="./assets/img/logo.png" alt="Logo" class="logo" />
         </button>
       </router-link>
+
       <div class="search-bar">
         <input type="text" placeholder="Buscar Productos" v-model="searchQuery" />
         <button @click="search">Buscar</button>
       </div>
-      <router-link :to="userProfileLink">
-        <button class="profile-button" @click="handleClick('profile')">
-          <img src="./assets/img/user-icon.png" alt="profile" />
-        </button>
+      <router-link :to="{ name: 'UserList', params: { id: id } }">
+        <button class="profile-button" @click="handleClick('profile')"> 
+        <img src="./assets/img/user-icon.png" alt="profile" /></button>
       </router-link>
-    </div>
-    <div class="sidebar" :class="{ open: isSidebarOpen }">
-      <router-link :to="userProfileLink"><div>Perfil</div></router-link>
-      <div>Quejas</div>
-      <div>Estados de pedido</div>
     </div>
   </header>
 </template>
@@ -81,52 +81,18 @@ export default {
   top: 0;
   left: 0;
   z-index: 5000;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
 }
 
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  background: #333;
-  color: white;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
-  z-index: 6000; /* Ensure the sidebar is above the header */
-}
-
-.sidebar.open {
-  transform: translateX(0);
-}
-
-.sidebar div {
-  padding: 10px;
-  border-bottom: 1px solid white;
-  cursor: pointer;
-}
-
-.menu-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1.5rem;
-  z-index: 7000; /* Ensure the menu button is above the sidebar */
-  position: relative;
-}
-
+.menu-button,
 .profile-button,
 .logo-button {
   background: none;
@@ -135,9 +101,13 @@ export default {
   font-size: 1.5rem;
 }
 
-.menu-item {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
+.menu-button {
+  margin-right: auto; 
+}
+
+.logo-button {
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .logo {
@@ -145,10 +115,10 @@ export default {
 }
 
 .search-bar {
+  flex: 1;
   display: flex;
   justify-content: center;
   margin: 0 1rem;
-  flex-grow: 1;
 }
 
 .search-bar input {
@@ -160,7 +130,7 @@ export default {
 }
 
 .search-bar button {
-  padding: 0.75rem 1rem;
+  padding: 0.25rem 1rem;
   font-size: 1rem;
   border: none;
   background-color: #4CAF50;
@@ -174,6 +144,7 @@ export default {
 }
 
 .profile-button {
+  margin-left: auto;
   height: 50px;
 }
 
