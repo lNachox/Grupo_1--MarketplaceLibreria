@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Estuche Angoo Triangular - Rosado",
+    "price": "$8,490",
+    "image": "https://cdn.discordapp.com/attachments/566805873234804746/1242323979277041764/image.png?ex=664d6bdd&is=664c1a5d&hm=c3b3e36619087a740bfc614cb9be4ec4e7646769836f8bb13c605d4c18a00000&",
+    "description": "Estuche de tela con cierre y gran capacidad. Dentro tiene bolsillos pequeños para guardar dinero o cosas pequeñas como sacapuntas, goma, minas, etc. Tela Oxford, como mochila, resistente al agua. Capacidad (a modo de referencia): Puede almacenar 100 grafitos HB aprox., o 26 marcadores.",
+    "supplier": "Lapiz Lopez",
+    "label1": "Útiles escolares",
+    "label2": "Escritura y corrección"
+  },
+  {
+    "id": 2,
+    "name": "Set 3 Bolígrafos Strawberry Thief ",
+    "price": "$20,990",
+    "image": "https://cdn.discordapp.com/attachments/566805873234804746/1242625732505636935/image.png?ex=664e84e5&is=664d3365&hm=eab654c2598f0eadf30f0f19d28e91286cbbc0958652050cd8498dd36725ce58&",
+    "description": "El set de bolígrafos William Morris con 3 bolígrafos decorados con diseños icónicos de William Morris. Daffodil, Strawberry Thief y Willow Bough robará todas las miradas.",
+    "supplier": "Proveedor 2",
+    "label1": "Útiles escolares",
+    "label2": "Escritura y corrección"
+  },
+  {
+    "id": 3,
+    "name": "Plumón Doble Punta Blender",
+    "price": "$3,290",
+    "image": "https://media.discordapp.net/attachments/566805873234804746/1242625747185696869/image.png?ex=664e84e8&is=664d3368&hm=fb9e0ba6ab5219c7be3f94bd338d2f60a12d798921ff2d3726dbc22b8c8fb97d&=&format=webp&quality=lossless&width=375&height=261",
+    "description": "Tombow Dual Brush Pen es un pincel de buena calidad con una punta de fibra de nylon flexible y resistente en un extremo para crear trazos finos, medianos y audaces con diferente presión en la punta, y una punta fina en el otro extremo para dibujar líneas y bordes consistentes . La tinta es a base de agua, mezclable, inodoro y sin sangrado. El bolígrafo es perfecto para...",
+    "supplier": "-",
+    "label1": "Útiles escolares",
+    "label2": "Escritura y corrección"
+  },
+  {
+    "id": 4,
+    "name": "Set 8 Destacadores Metálicos ",
+    "price": "$9,990",
+    "image": "https://cdn.discordapp.com/attachments/566805873234804746/1242625767070896190/image.png?ex=664e84ed&is=664d336d&hm=08fddd944527fcdf806bfacb273b273048fc0db868f6b4bdeef8638e3410693a&",
+    "description": "Set de 8 destacadores metálicos Faber-Castell: Resalta con elegancia y precisión con esta colección premium de colores vibrantes y duraderos.",
+    "supplier": "Proveedor 4",
+    "label1": "Útiles escolares",
+    "label2": "Escritura y corrección"
+  },
+  {
+    "id": 5,
+    "name": "Set Notas Adhesivas Colette ",
+    "price": "$17,990",
+    "image": "https://cdn.discordapp.com/attachments/566805873234804746/1242625779972706405/image.png?ex=664e84f0&is=664d3370&hm=e8caf47d942bc7acf946ef6f3c9bd2f5fdd7021f87800bd9a5fcfd3e65a2b229&",
+    "description": "Set de notas adhesivas Colette: Organiza tu vida con estilo con este conjunto de notas adhesivas de alta calidad, diseñadas para destacar y recordar con elegancia.",
+    "supplier": "-",
+    "label1": "Útiles escolares",
+    "label2": "Escritura y corrección"
+  }
+]
