@@ -9,6 +9,10 @@ import UserAuth from '../components/views/UserAuth.vue';
 import UserProfileEdit from '../components/views/UserProfileEdit.vue'
 import Complaints from '../components/views/Complaints.vue'
 import ShoppingCart from '../components/views/ShoppingCart.vue'
+import SupplierDetail from '@/components/views/SupplierDetail.vue';
+import SupplierProfileEdit from '@/components/views/SupplierProfileEdit.vue';
+import SuppComplaints from '@/components/views/SuppComplaints.vue';
+
 
 const routes = [
   {
@@ -42,8 +46,8 @@ const routes = [
     component: UserAuth
   },
   {
-    path: '/editprofile',
-    name: 'editprofile',
+    path: '/editprofile', 
+    name: 'editprofile', 
     component: UserProfileEdit
   },
   {
@@ -55,6 +59,24 @@ const routes = [
     path: '/cart',
     name: 'cart',
     component: ShoppingCart
+  },
+  {
+    path: '/supplierdetail',
+    name: 'supplierdetail',
+    component: SupplierDetail
+  },
+  {
+    path: '/suppcomplaints',
+    name: 'suppcomplaints',
+    component: SuppComplaints
+  },
+  {
+    path: '/supplierprofileedit',
+    name: 'supplierprofileedit',
+    component: SupplierProfileEdit
+  },
+  {
+    path: '/suppliercart',
   }
 ];
 
@@ -62,5 +84,5 @@ export const router = createRouter({
   history: createWebHistory(),
   routes
 });
-
+  
 export default router;
