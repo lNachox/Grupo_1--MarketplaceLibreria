@@ -9,6 +9,7 @@ import UserAuth from '../components/views/UserAuth.vue';
 import UserProfileEdit from '../components/views/UserProfileEdit.vue'
 import Complaints from '../components/views/Complaints.vue'
 import ShoppingCart from '../components/views/ShoppingCart.vue'
+
 const routes = [
   {
     path: '/',
@@ -41,8 +42,8 @@ const routes = [
     component: UserAuth
   },
   {
-    path: '/user/:id', 
-    name: 'EditProfile', 
+    path: '/editprofile',
+    name: 'editprofile',
     component: UserProfileEdit
   },
   {
@@ -50,9 +51,10 @@ const routes = [
     name: 'complaints',
     component: Complaints
   },
-  { path: '/cart', 
-  name: 'cart', 
-  component: ShoppingCart
+  {
+    path: '/cart',
+    name: 'cart',
+    component: ShoppingCart
   }
 ];
 
@@ -60,5 +62,5 @@ export const router = createRouter({
   history: createWebHistory(),
   routes
 });
-  
+
 export default router;

@@ -1,10 +1,8 @@
 <template>
   <div class="product-detail">
     <div class="sidebar">
-      <div class="sidebar-item">ID producto</div>
       <div class="sidebar-item">Útiles escolares</div>
       <div class="sidebar-item">Escritura y corrección</div>
-      <div class="sidebar-item">Arte y manualidades</div>
     </div>
     <div class="product-info">
       <h2>{{ product.name }}</h2>
