@@ -2,9 +2,7 @@
   <header class="header">
     <div class="header-content">
 
-      <router-link :to="userProfileLink">
-        <button class="menu-button" @click="handleClick('menu')">☰</button>
-      </router-link>
+      <button class="menu-button" @click="handleClick('menu')">☰</button>
 
 
       <router-link :to="{ name: 'ProductList', params: { id: id } }">
@@ -21,6 +19,11 @@
         <button class="profile-button" @click="handleClick('profile')"> 
         <img src="./assets/img/user-icon.png" alt="profile" /></button>
       </router-link>
+    </div>
+    <div class="sidebar" :class="{ open: isSidebarOpen }">
+      <router-link :to="userProfileLink"><div>Perfil</div></router-link>
+      <router-link :to="complaintsLink"><div>Quejas</div></router-link>
+      <div>Estados de pedido</div>
     </div>
   </header>
 </template>
@@ -91,8 +94,35 @@ export default {
   justify-content: space-between;
   padding: 0 1rem;
 }
-
-.menu-button,
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: #333;
+  color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 6000; /* Ensure the sidebar is above the header */
+}
+.sidebar.open {
+  transform: translateX(0);
+}
+.sidebar div {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+.menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  z-index: 7000; /* Ensure the menu button is above the sidebar */
+  position: relative;
+}
 .profile-button,
 .logo-button {
   background: none;

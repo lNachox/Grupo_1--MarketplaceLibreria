@@ -8,7 +8,9 @@
                 <p>{{ user.description }}</p>
             </div>
         </div>
-        <button class="delete-button">Eliminar Usuario</button>
+        <div class="profile-actions">
+      <button @click="editProfile">Editar Perfil</button>
+        </div>
     </div>
 </template>
 
@@ -26,7 +28,12 @@ export default {
         this.$route.params.id
         const userId = parseInt(this.$route.params.id);
         this.user = userData.find(user => user.id === userId);
-    }
+    },
+    methods: {
+    editProfile() {
+      this.$router.push({ name: 'editprofile' });
+    },
+  }
 };
 </script>
 
@@ -87,4 +94,5 @@ export default {
 .delete-button:hover {
     background-color: #c0392b;
 }
+
 </style>

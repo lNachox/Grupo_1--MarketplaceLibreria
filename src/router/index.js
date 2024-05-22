@@ -6,7 +6,8 @@ import PageNotFound from '@/components/views/PageNotFound.vue';
 import UserList from '../components/views/UserList.vue';
 import UserDetail from '../components/views/UserDetail.vue';
 import UserAuth from '../components/views/UserAuth.vue';
-
+import UserProfileEdit from '../components/views/UserProfileEdit.vue'
+import Complaints from '../components/views/Complaints.vue'
 const routes = [
   {
     path: '/',
@@ -37,6 +38,16 @@ const routes = [
     path: '/userAuth',
     name: 'UserAuth',
     component: UserAuth
+  },
+  {
+    path: '/editprofile', 
+    name: 'editprofile', 
+    component: UserProfileEdit
+  },
+  {
+    path: '/complaints',
+    name: 'complaints',
+    component: Complaints
   }
 ];
 
