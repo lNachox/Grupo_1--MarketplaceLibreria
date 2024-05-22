@@ -1,34 +1,34 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "name": "Juan Perez",
         "email": "juanperez@gmail.com",
         "image": "https://media.discordapp.net/attachments/1171576941183242341/1242692955295191060/image.png?ex=664ec380&is=664d7200&hm=bc869038931b975ffc10622dee7de4ac759860dc2f43b42acd512eedc0914b32&=&format=webp&quality=lossless&width=337&height=254",
         "description": "Amante de los libros desde la cuna 📚✨ | Compartiendo lecturas y reflexiones en mi blog personal | Explorador de mundos imaginarios |"
     },
     {
-        "id": "2",
+        "id": 2,
         "name": "Dino Troncoso",
         "email": "dino@gmail.com",
         "image": "https://media.discordapp.net/attachments/1171576941183242341/1242692978930356345/image.png?ex=664ec386&is=664d7206&hm=d1c4a374e590856de0c934095a1797bd52462d02b2483599f6176bda71e20020&=&format=webp&quality=lossless&width=337&height=247",
         "description": "Padre de familia, con dos hermosos hijos."
     },
     {
-        "id": "3",
+        "id": 3,
         "name": "Pedro Piedra",
         "email": "piedra@outlook.com",
         "image": "https://media.discordapp.net/attachments/1171576941183242341/1242693003504652359/image.png?ex=664ec38c&is=664d720c&hm=22afbcfd5ab5d274f91fe6680e8830307dbf8e4e8a6f3177a06d50d7478088da&=&format=webp&quality=lossless&width=337&height=252",
         "description": " Bibliotecario apasionado por los libros 📖 | Buscador incansable de nuevas aventuras entre páginas | Conversador empedernido sobre literatura"
     },
     {
-        "id": "4",
+        "id": 4,
         "name": "Alexis Sanchez",
         "email": "alexisanchez@yahoo.com",
         "image": "https://media.discordapp.net/attachments/1171576941183242341/1242693023297441864/image.png?ex=664ec390&is=664d7210&hm=8c1667b1bfbeed985afdbd20760e07dd1209fbe86ddca73fec49331242db17e8&=&format=webp&quality=lossless&width=337&height=243",
         "description": "Profesor de literatura y amante de las historias cautivadoras 📝 | Inspirando a la próxima generación de lectores"
     },
     {
-        "id": "5",
+        "id": 5,
         "name": "Maximiliano Torres ",
         "email": "maxi@gmail.com",
         "image": "https://media.discordapp.net/attachments/1171576941183242341/1242712315305005127/image.png?ex=664ed588&is=664d8408&hm=ff0c68b076bcce7f681bb101d60342db55a75ae5677fb88128e5fc6532ab4a70&=&format=webp&quality=lossless&width=337&height=229",

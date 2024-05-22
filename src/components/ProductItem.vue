@@ -137,9 +137,11 @@ export default {
   cursor: pointer;
   border-radius: 5px;
   width: 10%;
+  transition: all 0.5s ease;
 }
 
 .detail-button:hover {
   background-color: #45a049;
+  transform: scale(1.01);
 }
 </style>

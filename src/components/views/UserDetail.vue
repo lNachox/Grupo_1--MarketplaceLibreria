@@ -1,14 +1,15 @@
 <template>
-    <div class="user-detail">
-        <div class="product-info">
+    <div class="card">
+        <img :src="user.image" alt="User Image" class="profile-pic" />
+        <div class="info">
             <h2>{{ user.name }}</h2>
-            <img :src="user.image" alt="User Image" />
-            <div class="user-meta">
-                <div class="user-meta-item">{{ user.email }}</div>
-                <div class="user-meta-item">{{ user.description }}</div>
+            <p class="email">{{ user.email }}</p>
+            <div class="description">
+                <p>{{ user.description }}</p>
+            </div>
         </div>
+        <button class="delete-button">Eliminar Usuario</button>
     </div>
-</div>
 </template>
 
 <script>
@@ -22,6 +23,7 @@ export default {
         };
     },
     created() {
+        this.$route.params.id
         const userId = parseInt(this.$route.params.id);
         this.user = userData.find(user => user.id === userId);
     }
@@ -29,32 +31,60 @@ export default {
 </script>
 
 <style scoped>
-.user-detail {
-    display: flex;
+.card {
+    margin: auto;
     background-color: #f5e2b7;
-    padding: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+    padding: 5rem;
+    
 }
 
-.product-info {
-    display: flex;
-    flex-direction: column;
-    margin-right: 1rem;
+.profile-pic {
+    border-radius: 50%;
     width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
-.user-meta-item {
-    background-color: #8b5e34;
-    color: white;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    text-align: center;
+.info {
+    margin-top: 20px;
 }
 
-.user-meta-item {
-    background-color: #8b5e34;
+.info h2 {
+    font-size: 24px;
+    color: #5b3920;
+    margin: 0;
+}
+
+.email {
+    color: #6c4c3a;
+    margin: 10px 0;
+}
+
+.description {
+    background-color: #6c4c3a;
     color: white;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
 }
 </style>
