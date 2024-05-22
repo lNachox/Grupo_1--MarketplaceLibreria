@@ -1,35 +1,15 @@
 <template>
-  <div id="app">
-    <Header />
-    <router-view 
-      :cart="cart" 
-      @add-to-cart="addToCart" 
-      @remove-from-cart="removeFromCart" 
-    />
-  </div>
+  <Header />
+<router-view />
 </template>
 
 <script>
 import Header from './components/Header.vue';
-import productData from '@/data/products.json';
 
 export default {
   name: 'App',
   components: {
-    Header
-  },
-  data() {
-    return {
-      cart: []
-    };
-  },
-  methods: {
-    addToCart(product) {
-      this.cart.push(product);
-    },
-    removeFromCart(productId) {
-      this.cart = this.cart.filter(product => product.id !== productId);
-    }
+   Header 
   }
 };
 </script>
