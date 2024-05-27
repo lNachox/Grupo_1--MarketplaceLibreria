@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1ECD0; 
+    font-family: Arial, sans-serif;
+  }
+  
+  #app {
+    padding-top: 70px; 
+  }
+  
